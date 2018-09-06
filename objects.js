@@ -11,10 +11,9 @@ function updatePlaylist(playlist, artistName, songTitle){
   return playlist
 }
 
-var artistName = 'Phil Ochs'
-playlist[artistName] = 'song' 
 
 console.log(playlist)
 function removeFromPlaylist(playlist, artistName){
+  playlist.artistName = "song"
   delete playlist[artistName] 
 }
